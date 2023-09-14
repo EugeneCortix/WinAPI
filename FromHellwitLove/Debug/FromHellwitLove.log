@@ -1,0 +1,14 @@
+﻿  FireandForgive.c
+C:\Users\TANYA\source\repos\FromHellwitLove\FromHellwitLove\FireandForgive.c(213,54): warning C4244: функция: преобразование "double" в "int", возможна потеря данных
+C:\Users\TANYA\source\repos\FromHellwitLove\FromHellwitLove\FireandForgive.c(215,48): warning C4244: функция: преобразование "double" в "int", возможна потеря данных
+C:\Users\TANYA\source\repos\FromHellwitLove\FromHellwitLove\FireandForgive.c(222,60): warning C4244: функция: преобразование "double" в "int", возможна потеря данных
+C:\Users\TANYA\source\repos\FromHellwitLove\FromHellwitLove\FireandForgive.c(224,54): warning C4244: функция: преобразование "double" в "int", возможна потеря данных
+C:\Users\TANYA\source\repos\FromHellwitLove\FromHellwitLove\FireandForgive.c(234,23): warning C4244: функция: преобразование "double" в "int", возможна потеря данных
+C:\Users\TANYA\source\repos\FromHellwitLove\FromHellwitLove\FireandForgive.c(235,22): warning C4244: функция: преобразование "double" в "int", возможна потеря данных
+C:\Users\TANYA\source\repos\FromHellwitLove\FromHellwitLove\FireandForgive.c(236,28): warning C4244: функция: преобразование "double" в "int", возможна потеря данных
+C:\Users\TANYA\source\repos\FromHellwitLove\FromHellwitLove\FireandForgive.c(242,17): warning C4244: функция: преобразование "double" в "int", возможна потеря данных
+C:\Users\TANYA\source\repos\FromHellwitLove\FromHellwitLove\FireandForgive.c(243,15): warning C4244: функция: преобразование "double" в "int", возможна потеря данных
+C:\Users\TANYA\source\repos\FromHellwitLove\FromHellwitLove\FireandForgive.c(244,16): warning C4244: функция: преобразование "double" в "int", возможна потеря данных
+  FromHellwitLove.cpp
+LINK : warning LNK4067: неоднозначная точка входа; выбрана "WinMainCRTStartup"
+  FromHellwitLove.vcxproj -> C:\Users\TANYA\source\repos\FromHellwitLove\Debug\FromHellwitLove.exe

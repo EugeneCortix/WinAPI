@@ -1,0 +1,45 @@
+#include <windows.h>
+#include "burn.h"
+
+MainMenu MENU
+{
+	POPUP "Файл"
+{
+	MENUITEM "В&ыход" IDM_EXIT
+}
+POPUP "Сервис"
+{
+	MENUITEM "&Цвет Графика R100"  IDM_COLOR
+	MENUITEM "&Цвет Графика R200" IDM_COLORTWO
+	MENUITEM "&Отобразить график R100" IDM_SHOW CHECKED
+	MENUITEM "&Отобразить график R200" IDM_SHOWTWO CHECKED
+	MENUITEM "&Параметры" IDM_SETUP
+}
+POPUP "&Справка"
+{
+	MENUITEM "&О Программе" IDM_ABOUT
+}
+
+}
+
+ExampleDialog DIALOG DISCARDABLE 10, 10, 155, 90
+CAPTION "Параметры"
+{
+	GROUPBOX			"Ось Ox", IDC_STATIC, 5, 5, 70, 55
+		LTEXT				"xmax", IDC_STATIC, 10, 15, 30, 12
+		EDITTEXT			IDC_XMAX, 40, 15, 30, 12
+		LTEXT				"xmin", IDC_STATIC, 10, 25, 30, 12
+		EDITTEXT			IDC_XMIN, 40, 25, 30, 12
+		LTEXT				"xstep", IDC_STATIC, 10, 35, 30, 12
+		EDITTEXT			IDC_XSTEP, 40, 35, 30, 12
+
+		GROUPBOX			"Ось Oy", IDC_STATIC, 80, 5, 70, 55
+		LTEXT				"ymax", IDC_STATIC, 85, 15, 30, 12
+		EDITTEXT			IDC_YMAX, 115, 15, 30, 12
+		LTEXT				"ymin", IDC_STATIC, 85, 25, 30, 12
+		EDITTEXT			IDC_YMIN, 115, 25, 30, 12
+		LTEXT				"ystep", IDC_STATIC, 85, 35, 30, 12
+		EDITTEXT			IDC_YSTEP, 115, 35, 30, 12
+		DEFPUSHBUTTON "OK", IDOK, 25, 68, 50, 14
+		PUSHBUTTON "ОТМЕНА", IDCANCEL, 80, 68, 50, 14
+}
